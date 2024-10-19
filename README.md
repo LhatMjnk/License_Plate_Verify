@@ -44,8 +44,8 @@ utils/
 
 1. **Clone the repository:**
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/LhatMjnk/License_Plate_Verify.git
+    cd License_Plate_Verify
     ```
 
 2. **Install dependencies:**
