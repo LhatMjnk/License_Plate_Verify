@@ -72,7 +72,7 @@ You must fill in all the database boxes (the port is optional) and the app is re
 ![App interface when connect to database successfully](https://github.com/user-attachments/assets/7ab14a9e-d0d3-47d0-9f5e-1d891c140e93)
 
 
-
+**Caution:** The URL when using the camera in the [App/app.py](App/app.py) is getting by installing "IP Webcam" and setting the port to 8080
 
 
 ## Models
