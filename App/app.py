@@ -33,7 +33,7 @@ def connect_to_database(database_name, database_host, database_user, database_pa
 
 # Function for taking camera input
 def get_camera_input():
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+    cap = cv2.VideoCapture("https://192.168.100.101:8080/video")
     frame_placeholder = st.empty()
 
     while cap.isOpened():

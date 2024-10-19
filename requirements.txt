@@ -1,7 +1,7 @@
 tqdm
 PyYAML
 gdown
-Psycopg2
+psycopg2-binary
 
 numpy
 matplotlib
