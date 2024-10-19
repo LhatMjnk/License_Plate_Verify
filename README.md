@@ -3,34 +3,26 @@
 This project focuses on detecting and recognizing license plates using YOLOv11 models. The workspace is organized into several directories for data, models, and utilities.
 
 ## Project Structure
-
+```
 __init__.py
 .dockerignore
 .gitignore
 App/
     app.py
 compose.yaml
-Data/
+Data/ # Need to be download
     Detection/
         data.yaml
         images/
             train/
-            train.cache
             val/
         labels/
             train/
-            train.cache
             val/
-            val.cache
     OCR/
         data.yaml
-        dataset/
-            0.txt
-            ...
         images/
-            ...
         labels/
-        Licens plates.v13i.yolov11/
 Dockerfile
 Model/
     LP_Detect_YOLOv11n.pt
@@ -46,6 +38,7 @@ utils/
     __init__.py
     __pycache__/
     utils.py
+```
 
 ## Setup
 
@@ -62,13 +55,25 @@ utils/
 
 3. **Run the application:**
     ```sh
-    python App/app.py
+    streamlit App/app.py
     ```
 
 ## Data
-
+Need to be downloaded at: [Data](https://drive.google.com/drive/folders/1OZnFA6JCeAE4eX7U6wXTecnWLpfeZpj-?usp=sharing)
 - **Detection Data:** Located in `Data/Detection/`, contains images and labels for training and validation.
 - **OCR Data:** Located in `Data/OCR/`, contains images, labels, and datasets for OCR training.
+
+## App
+After running the app with ```streamlit``` you will get the interface:
+![App interface](https://github.com/user-attachments/assets/a455cd77-678a-42da-9c2d-e5d48c7faecf)
+
+The database I used in this project is PostgreSQL. 
+You must fill in all the database boxes (the port is optional) and the app is ready to use.
+![App interface when connect to database successfully](https://github.com/user-attachments/assets/7ab14a9e-d0d3-47d0-9f5e-1d891c140e93)
+
+
+
+
 
 ## Models
 
