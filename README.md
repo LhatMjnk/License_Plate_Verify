@@ -93,6 +93,10 @@ You must fill in all the database boxes (the port is optional) and the app is re
 
 - **Dockerfile:** Used to build the Docker image.
 - **Compose File:** [compose.yaml](compose.yaml) for setting up the Docker environment.
+- **To use:** Clone this repository and running:
+    ```sh
+    docker-compose up
+    ```
 
 ## Acknowledgements
 
