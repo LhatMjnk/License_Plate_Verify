@@ -1,0 +1,13 @@
+tqdm
+PyYAML
+gdown
+Psycopg2
+
+numpy
+matplotlib
+pandas
+Pillow
+opencv-python-headless
+ultralytics
+
+streamlit
