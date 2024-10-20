@@ -73,6 +73,7 @@ You must fill in all the database boxes (the port is optional) and the app is re
 
 
 **Caution:** The URL when using the camera in the [App/app.py](App/app.py) is getting by installing "IP Webcam" and setting the port to 8080
+**Caution 2:** The test_vid.MOV need to be downloaded in this link [Test_video](https://drive.google.com/file/d/1qg0qradfjQ5j9Adb0J2Zm2C6zH-ZKBHC/view?usp=sharing) and move to folder [App/](App/)
 
 
 ## Models
